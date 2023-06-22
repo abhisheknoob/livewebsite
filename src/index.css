@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ background-color:  #fff;
+  position: relative;
+  left: 70px;
+}
+.logo{
+    text-transform: uppercase;
+    color: 	#87CEFA;
+ 
+}
+.nav{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+ 
+ 
+}
+.nav ul{
+  display: flex;
+  position: relative;
+ 
+   left: 0;
+
+  
+ 
+}
+ul li{
+  list-style: none;
+  display: flex;
+  padding: 15px;
+
+ 
+  font-size: larger;
+  gap: 10px;
+
+}
+ul li a{
+   
+  text-decoration: none;
+  position: relative;
+}
+li a::before{
+content: '';
+position: absolute;
+border-bottom: 1.8px solid black;
+top: 25px;
+width: 0px;
+visibility: hidden;
+transition: all 0.3s 
+}
+li a:hover::before {
+  visibility: visible;
+  width: 60px; /* Adjust the width according to your preference */
+}
+ul li a:hover{
+  color: black;
+}
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+ 
+
+
+
+ 
+  background-color: #fff;
+}
+section .left{
+ 
+     padding: 20px;
+     line-height: 3rem;
+     width: 35rem;
+    
+     position: relative;
+     bottom: 20px;
+}
+section .left h1,h2{
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section .left h2 span{
+  color: 	#87CEFA;
+}
+section .left .btn1 button{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 20px ;
+    border-color: 	#87CEFA;
+    color:	#87CEFA;
+    cursor: pointer;
+    font-size: large;
+}
+  section .right{
+    animation: Abhishek 1.2s linear infinite;
+    animation-direction: alternate-reverse;
+
+  }
+  @keyframes Abhishek {
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateX(10px);
+    }
+  }
+  .box1{
+    
+    position: relative;
+    background-color: #ffffff; /* Set the background color of the box */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  #box1{
+    background-image: url(../src/images/service1.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+  #box3{
+    background-image: url(../src/images/service3.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+  #box4{
+    background-image: url(../src/images/service4.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+  
+  #box5{
+    background-image: url(../src/images/service5.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+  #box6{
+    background-image: url(../src/images/service6.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+  #box2{
+    background-image: url(../src/images/service2.jpg)
+    ;
+     background-size: cover;
+  position: relative;
+  }
+
+  .container{
+    display: grid;
+      justify-content: center;
+      height: 100vh;
+    
+      grid-template-columns: 300px 300px 300px ;
+      row-gap: 30px;
+      column-gap: 60px;
+      position: relative;
+      top: 45px;
+  }
+  .box1 .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+  }
+  h4{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 110px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  
+   .btn2 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ .btn2  button:hover {
+    background-color: #45a049;
+  }
+  
+ .btn2 button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+
+
+
+  
+  
+
+
